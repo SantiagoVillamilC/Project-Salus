@@ -1,0 +1,36 @@
+/* Estilo para el contenedor de la página que contiene el Sidebar y el Dashboard */
+.dashboard-page {
+    display: flex;
+    min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+  }
+  
+  /* Estilo para el Sidebar */
+  .sidebar {
+    width: 15vw;
+    background-color: #CFCFCF;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+  
+  /* Estilo para el Dashboard */
+  .dashboard {
+    margin-left: 15vw; /* Esto asegura que el Dashboard se desplace a la derecha del Sidebar */
+    padding: 2rem;
+    flex-grow: 1; /* El Dashboard ocupará el espacio restante */
+    background-color: #f4f4f4;
+  }
+  
+  /* Ajustes adicionales de layout para asegurar una buena visualización */
+  .dashboard-page {
+    display: flex;
+    width: 100%;
+  }
+  
+  .dashboard, .sidebar {
+    box-sizing: border-box;
+  }
+  
+  

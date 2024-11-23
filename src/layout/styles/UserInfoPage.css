@@ -1,0 +1,121 @@
+.user-info-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Lato", sans-serif;
+    padding: 2rem;
+}
+
+.back-button {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: #A560E8;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #8549BA;
+}
+
+.image-container {
+    margin-bottom: 2rem;
+}
+
+.image-container img {
+    width: 20vw;
+    /* height: 200px; */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.subtitulo {
+    font-size: 1.5rem;
+    color: #4C4C4C;
+    margin-bottom: 2rem;
+}
+
+.interests-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.interests-container label {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.interests-container input[type="checkbox"] {
+    display: none; /* Ocultar el checkbox */
+}
+
+.interests-container input[name="deporte"]:checked + label {
+    background-color: #8EE000; /* Verde brillante */
+    box-shadow: 0 0 10px rgba(142, 224, 0, 0.5);
+}
+
+.interests-container input[name="deporte"]:not(:checked) + label {
+    background-color: #D2F5A1; /* Verde más claro cuando no está seleccionado */
+}
+
+.interests-container input[name="saludMental"]:checked + label {
+    background-color: #14D4F4; /* Azul claro */
+    box-shadow: 0 0 10px rgba(20, 212, 244, 0.5);
+}
+
+.interests-container input[name="saludMental"]:not(:checked) + label {
+    background-color: #A2E9FF; /* Azul más claro cuando no está seleccionado */
+}
+
+.interests-container input[name="productividad"]:checked + label {
+    background-color: #FFC715; /* Amarillo dorado */
+    box-shadow: 0 0 10px rgba(255, 199, 21, 0.5);
+}
+
+.interests-container input[name="productividad"]:not(:checked) + label {
+    background-color: #FFF4A3; /* Amarillo más claro cuando no está seleccionado */
+}
+
+.interests-container input[name="bienestar"]:checked + label {
+    background-color: #E53838; /* Rojo intenso */
+    box-shadow: 0 0 10px rgba(229, 56, 56, 0.5);
+}
+
+.interests-container input[name="bienestar"]:not(:checked) + label {
+    background-color: #F5A0A0; /* Rojo más claro cuando no está seleccionado */
+}
+
+.submit-button {
+    background-color: #A560E8;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #8549BA;
+}
+
+.submit-button:disabled {
+    background-color: #C4A7E7;
+    cursor: not-allowed;
+}

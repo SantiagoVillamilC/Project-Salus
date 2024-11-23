@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.logo, .nav-links, .icon {
+  flex: 1; /* Divide el espacio en tres partes iguales */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  justify-content: flex-start; /* Alinea el logo a la izquierda */
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.nav-links {
+  display: flex;
+  gap: 10%; /* Espaciado entre los enlaces */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #4C4C4C;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #7AC70C;
+  transform: scale(1.1);
+}
+
+.icon {
+  font-size: 1.5rem;
+  justify-content: flex-end; /* Alinea el emoji a la derecha */
+}

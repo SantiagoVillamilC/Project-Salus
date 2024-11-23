@@ -1,0 +1,109 @@
+.plans-section {
+    padding: 50px 20px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .plans-title {
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #8EE000;
+    margin-bottom: 10px;
+  }
+  
+  .plans-subtitle {
+    font-size: 1.2rem;
+    color: #6f6f6f;
+    margin-bottom: 40px;
+  }
+  
+  .plans-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .plan-card {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 450px; /* Altura ajustada */
+    text-align: left; /* Cambiado a izquierda */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .plan-card.popular {
+    transform: scale(1);
+    background-color: #E9FBE6;
+    border: 2px solid #8EE000;
+    width: 330px;
+    height: 480px;
+    margin-top: -1%;
+  }
+  
+  .plan-card:hover {
+    transform: scale(1.05); /* Todas se agrandan uniformemente */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .popular-label {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #8EE000;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .plan-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #8EE000;
+  }
+  
+  .plan-description {
+    font-size: 1rem;
+    color: #6f6f6f;
+    margin-bottom: 20px;
+  }
+  
+  .plan-price {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .plan-benefits {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .plan-benefits li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #4d4d4d;
+  }
+  
+  .plan-benefits li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .plan-card:hover.plan-card.popular {
+    transform: scale(1.1); /* Resalta la premium */
+  }
+  

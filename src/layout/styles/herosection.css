@@ -1,0 +1,80 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .small-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFC715;
+    margin-bottom: 1%;
+  }
+  
+  .main-heading {
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    color: #A560E8;
+    margin-bottom: 1%;
+    margin-top: 0;
+  }
+  
+  .normal-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #4C4C4C;
+  }
+  
+  /* Contenedor para el campo de texto y el botón */
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  /* Campo de texto */
+  .name-input {
+    width: 300px;
+    padding: 0.8rem;
+    border: 2px solid #A560E8;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    outline: none;
+    margin-right: 1rem;
+  }
+  
+  /* Placeholder personalizado */
+  .name-input::placeholder {
+    color: #A7A7A7;
+  }
+  
+  /* Botón */
+  .ready-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #A560E8;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ready-button:hover {
+    background-color: #8549BA;
+  }
+  
+  /* Estilos cuando el botón está deshabilitado */
+  .ready-button.disabled {
+    background-color: #C4A7E7; /* Un color más tenue */
+    cursor: not-allowed; /* Cambiar el cursor para indicar que está deshabilitado */
+  }

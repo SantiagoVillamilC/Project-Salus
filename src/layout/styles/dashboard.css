@@ -1,0 +1,94 @@
+.dashboard {
+    padding: 2rem;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  .row .col {
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .greeting h1 {
+    font-size: 2rem;
+    color: #3a3a3a;
+  }
+  
+  .greeting p {
+    font-size: 1rem;
+    color: #7a7a7a;
+    margin-top: 1rem;
+  }
+  
+  .tasks-row .tasks {
+    width: 45%;
+  }
+  
+  .tasks-row .premium {
+    width: 45%;
+  }
+  
+  .premium-btn {
+    background-color: #A560E8;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .premium-btn:hover {
+    background-color: #8549BA;
+  }
+  
+  .daily-summary .summary-item {
+    padding: 1rem;
+  }
+  
+  .daily-summary .summary-item.large {
+    width: 48%;
+    background-color: #D5A0D1;
+  }
+  
+  .daily-summary .summary-item {
+    width: 23%;
+  }
+  
+  .personal-selection .selection-item {
+    padding: 1rem;
+    background-color: #E3D1E5;
+  }
+  
+  .personal-selection .selection-item.large {
+    width: 48%;
+  }
+  
+  .personal-selection .selection-item {
+    width: 23%;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #3a3a3a;
+  }
+  
+  button.btn {
+    padding: 0.5rem 1rem;
+    background-color: #8549BA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.btn:hover {
+    background-color: #A560E8;
+  }
+  

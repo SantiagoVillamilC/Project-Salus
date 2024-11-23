@@ -1,0 +1,91 @@
+.sidebar {
+    width: 220px;
+    height: auto;
+    background-color: #F4F4F4;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.sidebar .username {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4C4C4C;
+    margin-bottom: 1.5rem;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu h3 {
+    font-size: 1rem;
+    color: #A560E8;
+    margin-bottom: 1rem;
+    text-align: left;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+}
+
+.menu ul li {
+    margin: 0.3rem 0;
+    padding-left: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #4C4C4C;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    display: block;
+    transition: background-color 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.menu ul li a:hover {
+    background-color: #A560E8;
+    color: white;
+}
+
+.menu ul li a.active {
+    background-color: #8549BA;
+    color: white;
+}
+
+/* Submenú */
+.submenu {
+    list-style-type: none;
+    padding-left: 15px;
+    margin-top: 0.3rem;
+}
+
+.submenu li {
+    margin: 0.3rem 0;
+}
+
+.submenu li a {
+    font-size: 0.85rem;
+    padding: 0.4rem;
+}
+
+.submenu li a:hover {
+    background-color: #D5A0D1;
+    color: white;
+}
