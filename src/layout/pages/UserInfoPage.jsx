@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import "../styles/userInfoPage.css";
+import "../styles/UserInfoPage.css";
 import image from "../../assets/undraw_check_boxes_re_v40f.svg"
 
 const UserInfoPage = () => {
